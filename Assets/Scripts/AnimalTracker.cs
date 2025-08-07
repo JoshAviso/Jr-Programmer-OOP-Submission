@@ -10,9 +10,9 @@ public class AnimalTracker : MonoBehaviour
     private int currentAnimalIndex = -1;
     void Start()
     {
-        animals.Add(new Cat());
-        animals.Add(new Dog());
-        animals.Add(new Fish());
+        animals.Add(new Cat("Mr. Whiskers"));
+        animals.Add(new Dog("Fluffball"));
+        animals.Add(new Fish("Mr. Nemo"));
     }
     void Update()
     {

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Animal
 {
+    public Animal(string name) { _name = name; }
     // ENCAPSULATION
     private string _name;
     public string GetName() => _name;
